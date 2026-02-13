@@ -70,18 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi princesita hermosa, dayanita de mi corazón:\n\nQuién diría que desde aquel 06/05/25 mi vida cambiaría tanto. No empezamos perfecto… empezamos real. Con momentos difíciles, con lágrimas, con peleas, con dudas… pero también con abrazos que curan, risas que sanan y un amor que nunca decidió soltarse.
-
-Hemos pasado cosas que tal vez otras parejas no hubieran aguantado, pero aquí seguimos. Y eso dice mucho de nosotros. Porque no nos elegimos solo en los días bonitos, nos elegimos también cuando todo pesaba, cuando dolía, cuando parecía más fácil rendirse.
-
-Y aún así… nunca nos soltamos.
-
-Estoy orgulloso de nosotros. Orgulloso de ti. De tu fuerza, de tu corazón, de todo lo que eres incluso cuando tú misma no lo ves. Si algo tengo claro es que no quiero un amor perfecto, quiero uno verdadero… y eso lo tengo contigo.
-
-Ya casi un año… y si este año fue prueba de algo, es que lo nuestro no es casualidad. Es decisión, es lucha, es cariño que se queda.
-
-Gracias por no rendirte conmigo.
-Gracias por seguir a mi lado.
+    text = `Para mi princesita hermosa, dayanita de mi corazón:\n\nQuién diría que desde aquel 06/05/25 mi vida cambiaría tanto. No empezamos perfecto… empezamos real. Con momentos difíciles, con lágrimas, con peleas, con dudas… pero también con abrazos que curan, risas que sanan y un amor que nunca decidió soltarse.Hemos pasado cosas que tal vez otras parejas no hubieran aguantado, pero aquí seguimos. Y eso dice mucho de nosotros. Porque no nos elegimos solo en los días bonitos, nos elegimos también cuando todo pesaba, cuando dolía, cuando parecía más fácil rendirse.Y aún así… nunca nos soltamos.Estoy orgulloso de nosotros. Orgulloso de ti. De tu fuerza, de tu corazón, de todo lo que eres incluso cuando tú misma no lo ves. Si algo tengo claro es que no quiero un amor perfecto, quiero uno verdadero… y eso lo tengo contigo.Ya casi un año… y si este año fue prueba de algo, es que lo nuestro no es casualidad. Es decisión, es lucha, es cariño que se queda.
 Te amo más de lo que puedo explicar con palabras. 💕.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }

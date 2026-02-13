@@ -74,8 +74,7 @@ function showDedicationText() { //seguidores
     
     Y eso dice mucho de nosotros. Porque no nos elegimos solo en los días bonitos, nos elegimos también cuando todo pesaba, cuando dolía, cuando parecía más fácil rendirse.Y aún así… nunca nos soltamos.
     
-    Ya casi un año… y si este año fue prueba de algo, es que lo nuestro no es casualidad. Es decisión, es lucha, es cariño que se queda.💕💕💕
-Te amo más de lo que puedo explicar con palabras. 💕.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    Ya casi un año… y si este año fue prueba de algo, es que lo nuestro no es casualidad. Es decisión, es lucha, es cariño que se queda.💕💕💕 \n\nTe amo más de lo que las palabras pueden expresar jijjij 💕💕💕🥹`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
